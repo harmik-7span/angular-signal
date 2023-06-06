@@ -91,6 +91,15 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref": "https://github.com/harmik-7span/angular-signal/",
+            "repo": "https://github.com/harmik-7span/angular-signal.git",
+            "name": "harmik-7span",
+            "email": "harmik@7span.com"
+          }
         }
       }
     }
