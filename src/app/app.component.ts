@@ -20,7 +20,7 @@ export class AppComponent implements OnInit {
   
   
   constructor(private change:ChangeDetectorRef){
-   
+   console.log('object');
   }
 
   ngOnInit(): void {
