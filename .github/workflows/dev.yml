@@ -27,6 +27,6 @@ jobs:
       
       - name: Deploydev
         env: 
-            GH_TOKEN: ${{secrets.DEV}}
+            GH_TOKEN: ${{secrets.DEMO}}
         run: |
           npm run deployDev
