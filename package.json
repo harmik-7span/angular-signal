@@ -8,7 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "deploy":"ng deploy --no-silent",
-    "deployDev":"ng deployDev  --no-silent"
+    "deployDev":"ng deploy  --no-silent"
   },
   "private": true,
   "dependencies": {
